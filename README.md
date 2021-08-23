@@ -112,4 +112,4 @@ Exemplo de como enviar os dados para a atualização da empresa:
  
  ### `DELETE` `/empresas/:id`
  
- Endepoint para deletar uma empresa com base no id informado no params, será verificado se existe uma empresa com este id e caso exista a empresa será excluída do banco de dados.
+ Endpoint para deletar uma empresa com base no id informado no params, será verificado se existe uma empresa com este id e caso exista a empresa será excluída do banco de dados.
