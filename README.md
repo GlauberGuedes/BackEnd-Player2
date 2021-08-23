@@ -20,7 +20,8 @@ Recebe todas as informações de cadastro do usuário, verifica se já existe um
 
 Exemplo de como enviar os dados para o cadastro:
 
-```{
+```
+{
   "email": "usuario@player2.com",
   "senha": "abc123"
 }
@@ -32,7 +33,8 @@ Recebe as informações de login (email e senha), verificará se o email existe 
 
 Exemplo de como enviar os dados para o login:
 
-```{
+```
+{
   "email": "usuario@player2.com",
   "senha": "abc123"
 }
@@ -54,7 +56,8 @@ Endpoint para cadastrar uma nova empresa. Recebe o cnpj, valida se está correto
 
 Exemplo de como enviar os dados para o cadastro da empresa:
 
-```{
+```
+{
   "cnpj": "19131243000197"
 }
 ```
@@ -65,7 +68,8 @@ Endpoint para atualizar uma empresa. Busca a empresa que deseja atualizar pelo i
 
 Exemplo de como enviar os dados para a atualização da empresa:
 
-```{
+```
+{
 "cnpj": "19131243000197",
 "identificador_matriz_filial": 1,
 "descricao_matriz_filial": "Matriz",
